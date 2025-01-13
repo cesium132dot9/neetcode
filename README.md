@@ -2,6 +2,8 @@ NeetCode automatically imports stuff, but for my own files I'd have to do it mys
 
 Trying to solve each problem in the languages I know. 
 
-Python /
-Java /
+Python 
+
+Java 
+
 C++ (Beginner)
