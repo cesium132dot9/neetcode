@@ -42,3 +42,6 @@ Converted words into tuples which contained letters and the letter's number of o
 - Hashmaps
     - The `computeIfAbsent()` method takes in the key, and a function 
 - Type declarations in java is very annoying
+
+
+## Top K Frequen Elements
