@@ -29,7 +29,7 @@ Check if the two strings are the same length. Use a dictionary to keep track the
 
 
 ## Group Anagrams: 
-Converted words into tuples which contained letters and the letter's number of occurance. Stored this tuple as a key in a dictionary/hashmap for easy lookup. Returned only the values of the hashmap. 
+Converted words into tuples which contained letters and the letter's number of occurence. Stored this tuple as a key in a dictionary/hashmap for easy lookup. Returned only the values of the hashmap. 
 ### Python: 
 - `sorted()` returns a list
 - Creating the key tuple  
@@ -44,4 +44,13 @@ Converted words into tuples which contained letters and the letter's number of o
 - Type declarations in java is very annoying
 
 
+<<<<<<< HEAD
 ## Top K Frequen Elements
+=======
+## Top K Frequent Elements: 
+Have a dictionary which mapped the numbers to their frequencies. Then found the max frequencies. Then added the original numbers to a list/array respectively. 
+### Java: 
+- `PriorityQueue` to determine the max frequency numbers
+- `Map.Entry<k, v>` to store the number to frequency in the priority queue
+- Lambda functions in java are written as `(inputs) -> output`
+>>>>>>> deb303f820f70c5d45a3e67281b01fc56e606247
