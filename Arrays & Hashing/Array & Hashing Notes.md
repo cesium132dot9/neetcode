@@ -84,3 +84,8 @@ std::string sub_str = str.sub_string(9, 2) // sub_str = "lt"
 std::string str_num = "10"; 
 int num = std::stoi(str_num); // num = 10 
 ```
+
+
+# 7. Product of Array Except Self
+Solution: 
+Create prefix and suffix lists, which contained the products of all previous/after elements. Then multiplied them together. 
