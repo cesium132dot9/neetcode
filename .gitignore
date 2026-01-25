@@ -11,3 +11,5 @@
 .vscode/
 .obsidian/
 *.iml
+.DS_Store
+.neetcode.iml
