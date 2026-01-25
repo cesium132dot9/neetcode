@@ -1,4 +1,4 @@
-# 1. Contains Duplicates
+# Contains Duplicates
 ## Solution: 
 Used a set to keep track of the numbers that appeared. Then check if the same number has appeared again.  
 
@@ -12,7 +12,7 @@ Used a set to keep track of the numbers that appeared. Then check if the same nu
     - Used to see if a set contains a number 
 
 
-# 2. Valid Anagrams
+# Valid Anagrams
 ## Solution: 
 1. Check if the two strings are the same length. 
 2. Keep track the number of times each character appears. 
@@ -26,7 +26,7 @@ Used a set to keep track of the numbers that appeared. Then check if the same nu
 - `charAt(<index>) - 'a'` is a [[Array & Hashing Notes#^adf866|character index conversion]] ^c2215c
 
 
-# 3. Two Sums
+# Two Sums
 ## Solution: 
 
 ### Java: 
@@ -35,7 +35,7 @@ Used a set to keep track of the numbers that appeared. Then check if the same nu
     - Connect the specified value with the specified key
 
 
-# 4. Group Anagram
+# Group Anagram
 ## Solution: 
 Converted words into tuples which contained letters and the letter's number of occurrence. Stored this tuple as a key in a dictionary/hashmap for easy lookup. Returned only the values of the hashmap. 
 
@@ -53,7 +53,7 @@ Converted words into tuples which contained letters and the letter's number of o
 - Type declarations in java is very annoying
 
 
-# 5. Top K Frequent Elements
+# Top K Frequent Elements
 ## Solution: 
 Have a dictionary which mapped the numbers to their frequencies. Then found the max frequencies. Then added the original numbers to a list/array respectively.
 
@@ -63,7 +63,7 @@ Have a dictionary which mapped the numbers to their frequencies. Then found the 
 - Lambda functions in java are written as `(inputs) -> output`
 
 
-# 6. Encode and Decode Strings 
+# Encode and Decode Strings 
 ## Solution: 
 Encode: 
 1. Added all the strings in the collection into one large string with its length and `"#"` to separate them
@@ -86,6 +86,12 @@ int num = std::stoi(str_num); // num = 10
 ```
 
 
-# 7. Product of Array Except Self
-Solution: 
+# Product of Array Except Self
+## Solution: 
 Create prefix and suffix lists, which contained the products of all previous/after elements. Then multiplied them together. 
+
+
+# Valid Sudoku
+## Solution
+Using a nested while loop, loop through numbers 0 to 8. Using a locally defined `row_appeared` and `col_appeared` see if numbers are repeated. 
+The equation to get the index of the sub-box is: $(row / 3) * 3 + (col / 3)$
